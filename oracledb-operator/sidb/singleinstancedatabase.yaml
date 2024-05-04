@@ -119,4 +119,4 @@ spec:
   ## For "ReadWriteOnce" AccessMode, all the replicas will schedule on the same node that has the storage attached
   ## For minimal downtime during patching set the count of replicas > 1
   ## Express edition can only have one replica and does not support patching
-  replicas: 2
+  replicas: 1
