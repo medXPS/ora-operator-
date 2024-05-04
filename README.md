@@ -2,7 +2,7 @@
 #create Nexus credentials secret 
 kubectl create secret generic regcred --from-file=.dockerconfigjson=$HOME/.docker/config.json  --type=kubernetes.io/dockerconfigjson -n orao-ha
 # Create  SIDB credentials secret 
-kubectl create secret generic admin-password --from-literal=sidb-admin-password='Kube#adria#2024@$@$' -n orao-ha
+kubectl create secret generic admin-password --from-literal=sidb-admin-password='Kube#adria#2024' -n orao-ha
 
 -----
 Monittoring : 
